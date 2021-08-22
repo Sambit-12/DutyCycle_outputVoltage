@@ -1,7 +1,7 @@
 PROJ_NAME = Duty_Cycle
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
-SRC =src/DutyCycle.c\
+SRC =Src/DutyCycle.c\
 
 
 
