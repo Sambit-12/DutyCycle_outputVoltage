@@ -32,14 +32,14 @@ void test_VoltageOutputofDutyCycle(void);
 
 void test_Dutycycle(void)
 {
-  TEST_ASSERT_EQUAL(1,Dutycycle(1,0));
+  TEST_ASSERT_EQUAL(0.400000,Dutycycle(2,3));
   //Value give as 1 and 0 Ton and Toff to get an Duty cycle value as 1
 
 }
 void test_VoltageOutputofDutyCycle(void)
 {
 
-  TEST_ASSERT_EQUAL(10,VoltageOutputofDutyCycle(1,5));
+  TEST_ASSERT_EQUAL(10.000000,VoltageOutputofDutyCycle(0.5,10));
   //To check the output voltage by putting Duty cycle as 5 and input voltage as 1
 }
 

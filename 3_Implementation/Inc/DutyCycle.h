@@ -14,6 +14,6 @@
     #include <stdlib.h>
     int Sambit();
     int Parameter_s();
-    int Dutycycle(int Ton, int Toff);
-    int VoltageOutputofDutyCycle(int D, int Vo);
+    float Dutycycle(float,float);
+    float VoltageOutputofDutyCycle(float,float);
     #endif
