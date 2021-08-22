@@ -9,7 +9,7 @@ COV_SRC = test/test.c
 
 TEST_SRC = test/test.c \
 unity/unity.c 
-INC_H = inc
+INC_H = Inc
 INC_T = unity
 
 #To check if the OS is Windows or Linux and set the executable file extension and delete command accordingly
