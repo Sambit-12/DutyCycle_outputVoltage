@@ -30,8 +30,7 @@ int Parameter_s()
 //Function for calculating Duty Cycle//
     int Dutycycle(int Ton, int Toff)
     {
-
-        int Duty_Cycle = (Ton/Ton + Toff);// Ton refers to On Time of the Diode and Ton+Toff refers to the Total time period of Diode.
+         int Duty_Cycle = (Ton/Ton + Toff); // Ton refers to On Time of the Diode and Ton+Toff refers to the Total time period of Diode//
 
         return  Duty_Cycle;
     }

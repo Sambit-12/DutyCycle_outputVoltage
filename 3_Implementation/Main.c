@@ -11,7 +11,7 @@
  * 
  */
 #include "DutyCycle.h"
- int main(void)
+ int main()
 {
      Sambit();
      //Decleration of main function
